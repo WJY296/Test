@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BloomFilter/BloomFilter.iml" filepath="$PROJECT_DIR$/BloomFilter/BloomFilter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataWay/DataWay.iml" filepath="$PROJECT_DIR$/DataWay/DataWay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FlinkCheckpoint_KafkaTest/FlinkCheckpoint_KafkaTest.iml" filepath="$PROJECT_DIR$/FlinkCheckpoint_KafkaTest/FlinkCheckpoint_KafkaTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HttpClientTest/HttpClientTest.iml" filepath="$PROJECT_DIR$/HttpClientTest/HttpClientTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KafkaTest/KafkaTest.iml" filepath="$PROJECT_DIR$/KafkaTest/KafkaTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListenerTest/ListenerTest.iml" filepath="$PROJECT_DIR$/ListenerTest/ListenerTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Photo_String/Photo_String.iml" filepath="$PROJECT_DIR$/Photo_String/Photo_String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RedisDemo/RedisDemo.iml" filepath="$PROJECT_DIR$/RedisDemo/RedisDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReflectDemo/ReflectDemo.iml" filepath="$PROJECT_DIR$/ReflectDemo/ReflectDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RegistUser/RegistUser.iml" filepath="$PROJECT_DIR$/RegistUser/RegistUser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringSecurity/SpringSecurity.iml" filepath="$PROJECT_DIR$/SpringSecurity/SpringSecurity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestMemo/TestMemo.iml" filepath="$PROJECT_DIR$/TestMemo/TestMemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThmeleafDemo/ThmeleafDemo.iml" filepath="$PROJECT_DIR$/ThmeleafDemo/ThmeleafDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadDemo/ThreadDemo.iml" filepath="$PROJECT_DIR$/ThreadDemo/ThreadDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aliyun_email/aliyun_email.iml" filepath="$PROJECT_DIR$/aliyun_email/aliyun_email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aliyun_oss/aliyun_oss.iml" filepath="$PROJECT_DIR$/aliyun_oss/aliyun_oss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis_cache/redis_cache.iml" filepath="$PROJECT_DIR$/redis_cache/redis_cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis_lock/redis_lock.iml" filepath="$PROJECT_DIR$/redis_lock/redis_lock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shiro/shiro.iml" filepath="$PROJECT_DIR$/shiro/shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aliyun_email/spring_boot_demo/spring_boot_demo.iml" filepath="$PROJECT_DIR$/aliyun_email/spring_boot_demo/spring_boot_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_demo/springboot_demo.iml" filepath="$PROJECT_DIR$/springboot_demo/springboot_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swagger-demo/swagger-demo.iml" filepath="$PROJECT_DIR$/swagger-demo/swagger-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test.iml" filepath="$PROJECT_DIR$/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../testdemo/testdemo.iml" filepath="$PROJECT_DIR$/../../testdemo/testdemo.iml" />
+    </modules>
+  </component>
+</project>

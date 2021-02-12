@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "test.list",
+      "type": "com.wjy.httpclient.conf.MyConf",
+      "sourceType": "com.wjy.httpclient.conf.MyConf"
+    }
+  ],
+  "properties": [
+    {
+      "name": "test.list.urls",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.wjy.httpclient.conf.MyConf"
+    }
+  ],
+  "hints": []
+}

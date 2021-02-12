@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  #数据源相关配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF8
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+##配置mybatis相关
+#mybatis:
+#  mapper-locations: classpath:com/baizhi/dao/*DaoMapper.xml
+#  type-aliases-package: com.baizhi.entity

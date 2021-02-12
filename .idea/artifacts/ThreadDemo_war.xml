@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ThreadDemo:war">
+    <output-path>$PROJECT_DIR$/ThreadDemo/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ThreadDemo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ph.war">
+      <element id="artifact" artifact-name="ThreadDemo:war exploded" />
+    </root>
+  </artifact>
+</component>

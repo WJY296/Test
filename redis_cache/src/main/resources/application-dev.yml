@@ -1,0 +1,75 @@
+spring:
+  mvc:
+    date-format: yyyy-MM-dd HH:mm:ss
+  jackson:
+    joda-date-time-format: yyyy-MM-dd HH:mm:ss
+    date-format: yyyy-MM-dd HH:mm:ss
+  redis:
+    host: 47.114.173.248
+    password: osRedis
+    port: 6379
+    database: 1
+  datasource:
+    url: jdbc:mysql://47.244.146.153:3306/bok?characterEncoding=utf8&autoReconnect=true&useSSL=false&serverTimezone=GMT%2B8&allowMultiQueries=true
+    username: ttdev
+    password: TIANtong2019.
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML
+    encoding: utf-8
+    cache: false
+
+mybatis:
+  type-aliases-package: com.sweet.entity
+  mapper-locations: classpath*:mapper/*.xml
+  type-handlers-package: com.sweet.handler
+  configuration:
+    map-underscore-to-camel-case: true
+  #mybatis打印sql
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#
+#mybatis-plus:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+wb-core:
+  swagger:
+    enable: true
+  controller-package: com.sweet.controller
+  redis-key: bok
+  submail:
+    app-id: xxxxx
+    app-key: xxxxx
+    code-model: xxxxx
+    code-var: code
+  simple-auth:
+    session:
+      name: bok_session_id
+
+task:
+  type: ip
+  out:
+    ip: 47.114.173.248
+    ip1: 47.114.173.248
+    ip2: 47.114.173.248
+  in:
+    ip: 172.16.247.248
+    ip1: 172.16.247.248
+    ip2: 172.16.247.248
+  file: docker_1
+
+okex:
+  #price: https://www.okex.me/v3/c2c/otc-ticker/roughly?t=1593008320463&baseCurrency=USDT&quoteCurrency=CNY&paymentMethod=aliPay&side=sell
+  price: https://otc-api-hk.eiijo.cn/v1/data/trade-market?coinId=2&currency=1&tradeType=buy&currPage=1&payMethod=0&country=37&blockType=general&online=1&range=0&amount=
+
+huobi:
+  api-url: https://api.huobi.me/
+
+host: http://47.114.173.248/pdf/
+
+#钉钉提醒URL
+ding:
+  webHook: https://oapi.dingtalk.com/robot/send?access_token=7c9583d01ec0d135312a104687defe46f95055677abbbe53e13bfba26e545754
+  insideWebHook: https://oapi.dingtalk.com/robot/send?access_token=7c9583d01ec0d135312a104687defe46f95055677abbbe53e13bfba26e545754
+  dealWebHook: https://oapi.dingtalk.com/robot/send?access_token=7c9583d01ec0d135312a104687defe46f95055677abbbe53e13bfba26e545754

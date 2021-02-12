@@ -1,0 +1,155 @@
+2021-01-10 14:25:24.223  INFO 13148 --- [restartedMain] c.wjy.httpclient.HttpClientApplication   : Starting HttpClientApplication on DESKTOP-9I8D8HB with PID 13148 (E:\workspace\Test\HttpClientTest\target\classes started by 86176 in E:\workspace\Test)
+2021-01-10 14:25:24.228  INFO 13148 --- [restartedMain] c.wjy.httpclient.HttpClientApplication   : The following profiles are active: dev
+2021-01-10 14:25:24.296  INFO 13148 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-10 14:25:24.296  INFO 13148 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-10 14:25:24.980  INFO 13148 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-10 14:25:24.982  INFO 13148 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-01-10 14:25:25.002  INFO 13148 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2021-01-10 14:25:25.499  INFO 13148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-01-10 14:25:25.514  INFO 13148 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9090"]
+2021-01-10 14:25:25.520  INFO 13148 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-10 14:25:25.520  INFO 13148 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-01-10 14:25:25.611  INFO 13148 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-10 14:25:25.611  INFO 13148 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1314 ms
+2021-01-10 14:25:25.649  WARN 13148 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'test': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wjy.httpclient.conf.Myconf' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2021-01-10 14:25:25.651  INFO 13148 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-01-10 14:25:25.667  INFO 13148 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-01-10 14:25:25.781 ERROR 13148 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wjy.httpclient.conf.Myconf' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wjy.httpclient.conf.Myconf' in your configuration.
+
+2021-01-10 14:26:17.274  INFO 19820 --- [restartedMain] c.wjy.httpclient.HttpClientApplication   : Starting HttpClientApplication on DESKTOP-9I8D8HB with PID 19820 (E:\workspace\Test\HttpClientTest\target\classes started by 86176 in E:\workspace\Test)
+2021-01-10 14:26:17.275  INFO 19820 --- [restartedMain] c.wjy.httpclient.HttpClientApplication   : The following profiles are active: dev
+2021-01-10 14:26:17.339  INFO 19820 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-10 14:26:17.341  INFO 19820 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-10 14:26:17.816  INFO 19820 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-10 14:26:17.818  INFO 19820 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-01-10 14:26:17.840  INFO 19820 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2021-01-10 14:26:18.399  INFO 19820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-01-10 14:26:18.408  INFO 19820 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9090"]
+2021-01-10 14:26:18.415  INFO 19820 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-10 14:26:18.415  INFO 19820 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-01-10 14:26:18.508  INFO 19820 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-10 14:26:18.508  INFO 19820 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1167 ms
+2021-01-10 14:26:18.668  INFO 19820 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-10 14:26:19.016  INFO 19820 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-01-10 14:26:19.040  INFO 19820 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-10 14:26:19.059  INFO 19820 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9090"]
+2021-01-10 14:26:19.078  INFO 19820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-01-10 14:26:19.079  INFO 19820 --- [restartedMain] c.wjy.httpclient.HttpClientApplication   : Started HttpClientApplication in 2.187 seconds (JVM running for 3.194)
+2021-01-10 14:26:38.563  INFO 19820 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-10 14:26:38.563  INFO 19820 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-10 14:26:38.569  INFO 19820 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2021-01-10 15:30:11.717  INFO 19820 --- [Thread-10] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-01-10 15:30:11.730  INFO 19820 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-10 15:30:12.518  INFO 19820 --- [restartedMain] c.wjy.httpclient.HttpClientApplication   : Starting HttpClientApplication on DESKTOP-9I8D8HB with PID 19820 (E:\workspace\Test\HttpClientTest\target\classes started by 86176 in E:\workspace\Test)
+2021-01-10 15:30:12.519  INFO 19820 --- [restartedMain] c.wjy.httpclient.HttpClientApplication   : The following profiles are active: dev
+2021-01-10 15:30:13.045  INFO 19820 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-10 15:30:13.046  INFO 19820 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-01-10 15:30:13.049  INFO 19820 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+2021-01-10 15:30:13.478  INFO 19820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-01-10 15:30:13.478  INFO 19820 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9090"]
+2021-01-10 15:30:13.479  INFO 19820 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-10 15:30:13.479  INFO 19820 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-01-10 15:30:13.496  INFO 19820 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-10 15:30:13.496  INFO 19820 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 975 ms
+2021-01-10 15:30:13.553  INFO 19820 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-10 15:30:13.613  INFO 19820 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-01-10 15:30:13.623  INFO 19820 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-10 15:30:13.634  INFO 19820 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9090"]
+2021-01-10 15:30:13.637  INFO 19820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-01-10 15:30:13.638  INFO 19820 --- [restartedMain] c.wjy.httpclient.HttpClientApplication   : Started HttpClientApplication in 1.153 seconds (JVM running for 3837.752)
+2021-01-10 15:30:13.642  INFO 19820 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-01-10 15:31:55.737  INFO 19820 --- [Thread-18] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-01-10 15:31:55.741  INFO 19820 --- [Thread-18] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-10 15:31:56.335  INFO 19820 --- [restartedMain] c.wjy.httpclient.HttpClientApplication   : Starting HttpClientApplication on DESKTOP-9I8D8HB with PID 19820 (E:\workspace\Test\HttpClientTest\target\classes started by 86176 in E:\workspace\Test)
+2021-01-10 15:31:56.336  INFO 19820 --- [restartedMain] c.wjy.httpclient.HttpClientApplication   : The following profiles are active: dev
+2021-01-10 15:31:56.494  INFO 19820 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-10 15:31:56.495  INFO 19820 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-01-10 15:31:56.497  INFO 19820 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+2021-01-10 15:31:56.604  INFO 19820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-01-10 15:31:56.605  INFO 19820 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9090"]
+2021-01-10 15:31:56.605  INFO 19820 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-10 15:31:56.605  INFO 19820 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-01-10 15:31:56.648  INFO 19820 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-10 15:31:56.648  INFO 19820 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 310 ms
+2021-01-10 15:31:56.699  INFO 19820 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-10 15:31:56.751  INFO 19820 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-01-10 15:31:56.758  INFO 19820 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-10 15:31:56.768  INFO 19820 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9090"]
+2021-01-10 15:31:56.770  INFO 19820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-01-10 15:31:56.771  INFO 19820 --- [restartedMain] c.wjy.httpclient.HttpClientApplication   : Started HttpClientApplication in 0.462 seconds (JVM running for 3940.886)
+2021-01-10 15:31:56.772  INFO 19820 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-01-10 15:32:44.748  INFO 19820 --- [Thread-24] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-01-10 15:32:44.752  INFO 19820 --- [Thread-24] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-10 15:32:45.365  INFO 19820 --- [restartedMain] c.wjy.httpclient.HttpClientApplication   : Starting HttpClientApplication on DESKTOP-9I8D8HB with PID 19820 (E:\workspace\Test\HttpClientTest\target\classes started by 86176 in E:\workspace\Test)
+2021-01-10 15:32:45.365  INFO 19820 --- [restartedMain] c.wjy.httpclient.HttpClientApplication   : The following profiles are active: dev
+2021-01-10 15:32:45.531  INFO 19820 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-10 15:32:45.532  INFO 19820 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-01-10 15:32:45.534  INFO 19820 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+2021-01-10 15:32:45.645  INFO 19820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-01-10 15:32:45.647  INFO 19820 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9090"]
+2021-01-10 15:32:45.647  INFO 19820 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-10 15:32:45.648  INFO 19820 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-01-10 15:32:45.665  INFO 19820 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-10 15:32:45.666  INFO 19820 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 292 ms
+2021-01-10 15:32:45.723  INFO 19820 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-10 15:32:45.785  INFO 19820 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-01-10 15:32:45.792  INFO 19820 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-10 15:32:45.801  INFO 19820 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9090"]
+2021-01-10 15:32:45.804  INFO 19820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-01-10 15:32:45.804  INFO 19820 --- [restartedMain] c.wjy.httpclient.HttpClientApplication   : Started HttpClientApplication in 0.475 seconds (JVM running for 3989.919)
+2021-01-10 15:32:45.806  INFO 19820 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-01-10 15:32:57.656  INFO 19820 --- [Thread-30] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-01-10 15:32:57.693  INFO 19820 --- [Thread-30] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-10 15:32:58.227  INFO 19820 --- [restartedMain] c.wjy.httpclient.HttpClientApplication   : Starting HttpClientApplication on DESKTOP-9I8D8HB with PID 19820 (E:\workspace\Test\HttpClientTest\target\classes started by 86176 in E:\workspace\Test)
+2021-01-10 15:32:58.228  INFO 19820 --- [restartedMain] c.wjy.httpclient.HttpClientApplication   : The following profiles are active: dev
+2021-01-10 15:32:58.343  INFO 19820 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-10 15:32:58.343  INFO 19820 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-01-10 15:32:58.345  INFO 19820 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+2021-01-10 15:32:58.437  INFO 19820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-01-10 15:32:58.438  INFO 19820 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9090"]
+2021-01-10 15:32:58.438  INFO 19820 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-10 15:32:58.439  INFO 19820 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-01-10 15:32:58.454  INFO 19820 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-10 15:32:58.454  INFO 19820 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 225 ms
+2021-01-10 15:32:58.506  INFO 19820 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-10 15:32:58.554  INFO 19820 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-01-10 15:32:58.560  INFO 19820 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-10 15:32:58.569  INFO 19820 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9090"]
+2021-01-10 15:32:58.577  INFO 19820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-01-10 15:32:58.578  INFO 19820 --- [restartedMain] c.wjy.httpclient.HttpClientApplication   : Started HttpClientApplication in 0.374 seconds (JVM running for 4002.693)
+2021-01-10 15:32:58.582  INFO 19820 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-01-10 15:33:13.393  INFO 19820 --- [Thread-36] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-01-10 15:33:13.396  INFO 19820 --- [Thread-36] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-10 15:33:13.895  INFO 19820 --- [restartedMain] c.wjy.httpclient.HttpClientApplication   : Starting HttpClientApplication on DESKTOP-9I8D8HB with PID 19820 (E:\workspace\Test\HttpClientTest\target\classes started by 86176 in E:\workspace\Test)
+2021-01-10 15:33:13.895  INFO 19820 --- [restartedMain] c.wjy.httpclient.HttpClientApplication   : The following profiles are active: dev
+2021-01-10 15:33:14.017  INFO 19820 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-10 15:33:14.017  INFO 19820 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-01-10 15:33:14.019  INFO 19820 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+2021-01-10 15:33:14.107  INFO 19820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-01-10 15:33:14.108  INFO 19820 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-9090"]
+2021-01-10 15:33:14.108  INFO 19820 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-10 15:33:14.108  INFO 19820 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-01-10 15:33:14.126  INFO 19820 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-10 15:33:14.127  INFO 19820 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 229 ms
+2021-01-10 15:33:14.180  INFO 19820 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-10 15:33:14.224  INFO 19820 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-01-10 15:33:14.229  INFO 19820 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-10 15:33:14.238  INFO 19820 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-9090"]
+2021-01-10 15:33:14.240  INFO 19820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-01-10 15:33:14.240  INFO 19820 --- [restartedMain] c.wjy.httpclient.HttpClientApplication   : Started HttpClientApplication in 0.37 seconds (JVM running for 4018.355)
+2021-01-10 15:33:14.242  INFO 19820 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

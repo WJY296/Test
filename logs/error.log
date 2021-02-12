@@ -1,0 +1,15 @@
+2021-01-10 14:25:25.781 ERROR 13148 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wjy.httpclient.conf.Myconf' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wjy.httpclient.conf.Myconf' in your configuration.
+

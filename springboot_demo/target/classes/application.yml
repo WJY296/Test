@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+
+wb-core:
+  simple-auth:
+    use-cookie: true
+
+
+test:
+  list: aaa,bbb,ccc
+  map1: '{"name":"张三","sex":"女"}'
+  map2: '{"math":100,"english":85}'

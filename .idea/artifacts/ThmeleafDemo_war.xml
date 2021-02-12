@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ThmeleafDemo:war">
+    <output-path>$PROJECT_DIR$/ThmeleafDemo/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ThmeleafDemo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ThmeleafDemo.war">
+      <element id="artifact" artifact-name="ThmeleafDemo:war exploded" />
+    </root>
+  </artifact>
+</component>

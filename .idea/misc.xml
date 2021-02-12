@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/redis_cache" />
+    <file type="web" url="file://$PROJECT_DIR$/ThmeleafDemo" />
+    <file type="web" url="file://$PROJECT_DIR$/ThreadDemo" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/DataWay/pom.xml" />
+        <option value="$PROJECT_DIR$/TestMemo/pom.xml" />
+        <option value="$PROJECT_DIR$/KafkaTest/pom.xml" />
+        <option value="$PROJECT_DIR$/RedisDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/RegistUser/pom.xml" />
+        <option value="$PROJECT_DIR$/BloomFilter/pom.xml" />
+        <option value="$PROJECT_DIR$/ListenerTest/pom.xml" />
+        <option value="$PROJECT_DIR$/Photo_String/pom.xml" />
+        <option value="$PROJECT_DIR$/ThmeleafDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/FlinkCheckpoint_KafkaTest/pom.xml" />
+        <option value="$PROJECT_DIR$/TestDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../../testdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/ThreadDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/HttpClientTest/pom.xml" />
+        <option value="$PROJECT_DIR$/ReflectDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringSecurity/pom.xml" />
+        <option value="$PROJECT_DIR$/redis_cache/pom.xml" />
+        <option value="$PROJECT_DIR$/redis_lock/pom.xml" />
+        <option value="$PROJECT_DIR$/aliyun_email/pom.xml" />
+        <option value="$PROJECT_DIR$/aliyun_oss/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/swagger-demo/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

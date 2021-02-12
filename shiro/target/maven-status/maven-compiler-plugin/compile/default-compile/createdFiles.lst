@@ -1,0 +1,5 @@
+com\baizhi\config\AuthenRealm.class
+com\baizhi\controller\UserController.class
+com\baizhi\config\ShiroConfig.class
+com\baizhi\service\UserService.class
+com\baizhi\service\impl\UserServiceImpl.class
