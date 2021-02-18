@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/ThreadDemo/ThreadDemo.iml" filepath="$PROJECT_DIR$/ThreadDemo/ThreadDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/aliyun_email/aliyun_email.iml" filepath="$PROJECT_DIR$/aliyun_email/aliyun_email.iml" />
       <module fileurl="file://$PROJECT_DIR$/aliyun_oss/aliyun_oss.iml" filepath="$PROJECT_DIR$/aliyun_oss/aliyun_oss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdk8_deo/jdk8_deo.iml" filepath="$PROJECT_DIR$/jdk8_deo/jdk8_deo.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis_cache/redis_cache.iml" filepath="$PROJECT_DIR$/redis_cache/redis_cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis_lock/redis_lock.iml" filepath="$PROJECT_DIR$/redis_lock/redis_lock.iml" />
       <module fileurl="file://$PROJECT_DIR$/shiro/shiro.iml" filepath="$PROJECT_DIR$/shiro/shiro.iml" />

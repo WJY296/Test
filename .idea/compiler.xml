@@ -9,26 +9,27 @@
         <module name="FlinkCheckpoint_KafkaTest" />
         <module name="spring_boot_demo" />
         <module name="ListenerTest" />
+        <module name="DataWay" />
         <module name="KafkaTest" />
         <module name="springboot_demo" />
         <module name="swagger-demo" />
         <module name="redis_cache" />
         <module name="Photo_String" />
-        <module name="RedisDemo" />
         <module name="shiro" />
         <module name="ThmeleafDemo" />
-        <module name="SpringSecurity" />
+        <module name="RegistUser" />
+        <module name="jdk8_deo" />
         <module name="aliyun_oss" />
+        <module name="testdemo" />
         <module name="ThreadDemo" />
         <module name="BloomFilter" />
         <module name="TestDemo" />
-        <module name="testdemo" />
+        <module name="SpringSecurity" />
         <module name="HttpClientTest" />
         <module name="ReflectDemo" />
         <module name="TestMemo" />
         <module name="redis_lock" />
-        <module name="DataWay" />
-        <module name="RegistUser" />
+        <module name="RedisDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -38,6 +39,7 @@
       <module name="DataWay" target="1.8" />
       <module name="FlinkCheckpoint_KafkaTest" target="1.8" />
       <module name="HttpClientTest" target="1.8" />
+      <module name="jdk8_deo" target="1.8" />
       <module name="KafkaTest" target="1.8" />
       <module name="ListenerTest" target="1.8" />
       <module name="Photo_String" target="1.8" />
